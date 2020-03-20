@@ -1,0 +1,201 @@
+nav{
+    background-color: aqua;
+    padding: 0px;
+    margin 0px;
+    bottom: 0px;
+    font-family: Verdana;
+    border: 10px solid greenyellow;
+    position: relative;
+    clear: both;
+        
+    
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    border-color: black;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: aqua;
+    display: inline;
+    margin: 2px;
+    border-spacing: inherit;
+}
+
+nav ul li a{
+    color: blueviolet;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    background-color: greenyellow;
+}
+
+header h1{
+    font-family: Verdana;
+    color: aqua;
+    
+}
+
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid greenyellow;
+    
+}
+
+#logo_pic{
+    width: 10%;
+    height: 15%;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+
+
+#alcohol_you{
+    width: 20%;
+    border-right: 10px solid greenyellow;
+     border-left: 10px solid greenyellow;
+    font-family: Verdana;
+    color: blueviolet;
+    background-color: aqua;
+    padding-top: 5px;
+    border-bottom: 10px solid greenyellow;
+    margin-left: 0px;
+}
+
+#calculator_pic{
+    float: center;
+    width: 10%;
+    height: auto;
+    border: 5px solid aqua;
+    
+}
+
+
+    
+    
+
+
+footer{
+    clear: none;
+    border: 10px solid greenyellow;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    font-family: Verdana;
+}
+
+footer ul{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 2px;
+   
+}
+
+footer ul li:hover{
+    background-color: greenyellow;
+}
+
+footer ul li a{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p{
+    color: black;
+    text-decoration: underline;
+}
+
+
+#main_column{
+    column-count: 1;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+    font-family: Verdana;
+    color: blueviolet;
+    float: right;
+    width: 78%;
+    border-right: 10px greenyellow;
+}
+
+#main_column h2{
+    text-decoration: underline;
+}
+
+#main_text{
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: 10px greenyellow;
+}
+
+
+    
+
+
+#units{
+    font-family: Verdana;
+    color: blueviolet;
+    
+    border: 10px solid greenyellow;
+    height: 300px;
+    margin: 0px;
+   
+    
+    
+    
+    
+    width: auto;
+    
+}
+
+#units select{
+    color: blueviolet;
+    background-color: aqua;
+    font-weight: bold;
+    text-align: center;
+}
+
+#units select-hide{
+    display: none;
+}
+
+#units input{
+    color: blueviolet;
+}
+
+#units h2{
+    font-size: 30px;
+    text-align: left;
+}
+
+#units label{
+    font-size: 15px;
+    text-align: center
+}
+
+#units form{
+    float: right;
+    text-align: right;
+}

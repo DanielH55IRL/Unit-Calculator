@@ -1,0 +1,83 @@
+<!doctype HTML>
+<!--Author - Daniel Halpin - S00199340
+	Date - 28/02/20
+	Page Description - Web Design Project - index.html
+-->
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Home Page">
+	<meta name="keywords" content="Home Page">
+	<meta name="author" content="Daniel Halpin">
+	<title>Unit Calculator</title>
+	<link rel="stylesheet" type="text/css" href="Styles/styles.css"/>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+</head>
+    
+<body style="background-color: white">
+    
+    <main>
+        <a id="pagetop"></a>
+	<header>
+        <img id="logo_pic" style="float: left; height: 50px;" src="Images/logo.jpg" alt="Logo">
+		<h1>Unit Calculator</h1>
+    </header>
+    <nav>
+        <ul>
+            <li id="active"><a href="index.html">Home</a></li>    
+            <li> <a href="calculator.html">Calculator</a></li>
+            <li> <a href="guidelines.html">Guidelines</a></li>
+            <li> <a href="more.html">More Info</a></li>
+        </ul>
+    </nav>
+   
+        
+        
+       <section id="units">
+           <h2>Drop Down Menu:</h2>
+           <p>
+           Please select a option from the drop down menu, to find out guidelines on standard drinks per range.
+           
+           
+           </p>
+           
+           
+           
+           <form>
+        <label for="units">Select Units</label>
+           
+           <select onchange="this.form.action=this.value;">
+               <option style="display:none"></option>
+               <option value="1_5.html">1-5 Standard Drinks Weekly</option>
+               <option value="5-10">5-10 Standard Drinks Weekly</option>
+               <option value="10-15">10-15 Standard Drinks Weekly</option>
+               <option value="15+">15+ Standard Drinks Weekly</option>
+               <input type="submit">
+               
+</select>
+           </form>
+               
+       
+        </section>
+        
+        
+        
+        
+    
+    </main>
+        
+           <footer>
+                <a href="#top">Go to top of page</a>
+             <ul>
+                <li id="active"><a href="index.html">Home</a></li>    
+            <li> <a href="calculator.html">Calculator</a></li>
+            <li> <a href="guidelines.html">Guidelines</a></li>
+            <li> <a href="more.html">More Info</a></li>
+             </ul>
+                <p>Copyright &copy; Daniel Halpin 2020</p>
+           </footer>
+    
+    </body>
+    
+</html>
